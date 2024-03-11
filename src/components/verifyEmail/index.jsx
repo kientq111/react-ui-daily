@@ -7,14 +7,19 @@ const VerifyEmail = ({ length = 4 }) => {
   const inputs = useRef([]);
 
   const handleInputChange = (event, index) => {
+    const { key } = event;
     const temp = [...inputValue];
-    const num = event.target.value;
-    if (/[^0-9]/.test(num)) return;
-    temp[index] = num;
-    if (event.target.value === "") {
-      inputs.current[index - 1]?.focus(); 
-    } else if (index < length - 1) {
-      inputs.current[index + 1].focus();
+    if (key === "Backspace") {
+      inputs.current[index - 1]?.focus();
+      temp[index] = "";
+    } else if (key === "ArrowRight") {
+      inputs.current[index + 1]?.focus();
+    } else if (key === "ArrowLeft") {
+      inputs.current[index - 1]?.focus();
+    } else {
+      if (/[^0-9]/.test(key)) return;
+      temp[index] = key;
+      inputs.current[index + 1]?.focus();
     }
     setInputValue([...temp]);
   };
@@ -39,8 +44,7 @@ const VerifyEmail = ({ length = 4 }) => {
             maxLength={1}
             autoFocus={!inputValue[0].length && index === 0}
             value={value}
-            onChange={(event) => handleInputChange(event, index)}
-            onKeyUp={(e) => onKeyUp(e, index)}
+            onKeyDown={(event) => handleInputChange(event, index)}
             ref={(ref) => inputs.current.push(ref)}
           />
         ))}
