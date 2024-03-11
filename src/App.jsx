@@ -1,7 +1,8 @@
 import { useState } from "react";
 // import Login from "@components/login
 // import LoginVerification from "@components/loginVerification";
-import VerifyEmail from "@/components/verifyEmail";
+// import VerifyEmail from "@/components/verifyEmail";
+import ReceivedCode from "./components/receivedCode";
 import "./App.css";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <div className="flex items-center justify-center h-screen bg-slate-200">
-      <VerifyEmail />
+      <ReceivedCode />
     </div>
   );
 }
