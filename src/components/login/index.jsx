@@ -1,6 +1,6 @@
 const Login = () => {
   return (
-    <div className="w-[425px] h-[752px] bg-white rounded-2xl shadow-lg flex flex-col items-center">
+    <div className="w-[425px] h-[752px] bg-white rounded-2xl shadow-lg flex flex-col items-center font-roboto">
       <h1 className="text-black font-bold text-2xl mt-20">Login</h1>
       <a
         href="#"
@@ -35,7 +35,7 @@ const Login = () => {
         <h4 className="ml-1 font-medium ">Keep me logged in</h4>
       </div>
       <h4 className="text-[#505DD1] mt-32 text-base font-medium">Forgot pasword?</h4>
-      <h5 className="text-[#1B1A34AB] text-sm">@2001 - 2020 All Right Reserved</h5>
+      <h5 className="text-[#1B1A34AB] text-sm mt-5">@2001 - 2020 All Right Reserved</h5>
     </div>
   );
 };

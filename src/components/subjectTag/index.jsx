@@ -29,7 +29,7 @@ const SubjectTag = () => {
   };
 
   return (
-    <div className="bg-[#111620] w-[985px] h-[576px] p-[100px] rounded-2xl">
+    <div className="bg-[#111620] w-[985px] h-[576px] p-[100px] rounded-2xl font-merriweather">
       <h4 className="text-[#7A90BB] text-base ">All recipes / Vegetarian</h4>
       <h1 className="mt-6 text-2xl font-bold text-[#9AB7EF]">
         All recipes / Vegetarian

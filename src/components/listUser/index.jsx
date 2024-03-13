@@ -18,7 +18,7 @@ const listData = [
   {
     name: "Annie Rice",
     school: "Austin, TX",
-    tags: ["road", "mountain", "trip", "earth", "nature"],
+    tags: ["road", "mountain", "trip", "earth"],
     avatar:
       "https://i.pinimg.com/236x/db/c4/f7/dbc4f7f26f83a1cedc0aa9523550ff26.jpg",
   },
@@ -50,8 +50,8 @@ const ListUser = () => {
     setSearchUser(event.target.value);
   };
   return (
-    <div className="w-[1213px] h-[830px] bg-white rounded-2xl p-24 ">
-      <h1 className="text-3xl font-bold">User</h1>
+    <div className="w-[1213px] h-[830px] bg-white rounded-2xl p-24 font-poppins">
+      <h1 className="text-3xl font-black font-merriweather">User</h1>
       <div className="flex justify-between items-center mt-6">
         <div class="relative flex ">
           <input

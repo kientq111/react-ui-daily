@@ -1,6 +1,6 @@
 const LoginVerification = () => {
   return (
-    <div className="w-[425px] h-[752px] bg-white rounded-2xl shadow-lg flex flex-col items-center pl-11 pr-11">
+    <div className="w-[425px] h-[752px] bg-white rounded-2xl shadow-lg flex flex-col items-center pl-11 pr-11 font-roboto">
       <h1 className="text-black font-bold text-2xl mt-20">
         Login Verification
       </h1>

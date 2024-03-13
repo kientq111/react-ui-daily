@@ -7,7 +7,7 @@ const UserCard = ({ user }) => {
           <h1 className="text-lg font-extrabold">{user.name}</h1>
           <h2 className="text-sm">{user.school}</h2>
         </div>
-        <div className="w-40 gap-[4px] flex flex-wrap mt-4">
+        <div className="w-44 gap-[4px] flex flex-wrap mt-4">
           {user.tags.map((tag) => (
             <span className="px-3 py-[2px] border border-[#BFC8E6] text-[#516FD4] rounded-xl text-xs font-medium">
               {tag}

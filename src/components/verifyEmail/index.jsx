@@ -25,7 +25,7 @@ const VerifyEmail = ({ length = 4 }) => {
   };
 
   return (
-    <div className="w-[752px] h-[482px] border-[4px] border-black rounded-2xl pt-20 pl-32 pr-32 bg-white">
+    <div className="w-[752px] h-[482px] border-[4px] border-black rounded-2xl pt-20 pl-32 pr-32 bg-white font-montserrat">
       <h1 className="font-bold text-center text-2xl">
         Verify your email address
       </h1>
