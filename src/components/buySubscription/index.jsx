@@ -47,7 +47,7 @@ const BuySubScription = () => {
             <div className="mt-10">
               <button
                 className="rounded-[41px] bg-[#F4F5FA] py-4 px-6 font-medium border-[1px] border-[#F0F0F6]
-            shadow-[0_4px_0_0_#E7E7FB]
+            shadow-[0_4px_0_0_#E7E7FB] hover:-translate-y-1.5 transition    
             "
               >
                 Add subscription
@@ -57,7 +57,7 @@ const BuySubScription = () => {
         ))}
       </div>
       <div className="mt-14 flex justify-center w-full">
-        <button className="py-4 px-6 bg-black text-white rounded-[41px] ">
+        <button className="py-4 px-6 bg-black text-white rounded-[41px] hover:-translate-y-1.5 transition">
           See all subscriptions
         </button>
       </div>
