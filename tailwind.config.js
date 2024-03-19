@@ -8,6 +8,7 @@ export default {
       poppins: "Poppins",
       roboto: "Roboto",
       montserrat: "Montserrat",
+      unicaOne: "Unica One",
     },
     extend: {},
   },

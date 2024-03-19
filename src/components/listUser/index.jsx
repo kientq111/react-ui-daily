@@ -30,11 +30,11 @@ const listData = [
       "https://i.pinimg.com/564x/93/75/ae/9375aef3b0ea35e0cf4ca12862bb5fef.jpg",
   },
   {
-    name: "Amy Campbell",
+    name: "Nhimmss",
     school: "Warrior, AL",
     tags: ["music", "disks"],
     avatar:
-      "https://cdn.alongwalk.info/info/wp-content/uploads/2022/11/16190620/image-99-hinh-avatar-cute-ngau-ca-tinh-de-thuong-nhat-cho-nam-nu-178699bcb1cf6d58f3f17d3a1ee26472.jpg",
+      "https://scontent.fhan2-3.fna.fbcdn.net/v/t39.30808-6/432749324_2129200177478482_3474451646279061805_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGCY2zvO3SKEEMHOJs2ZSDNckpK5eAz8yVySkrl4DPzJSJclXzzKeyY6miMz9Ia4hRVRNUWfM3HNjjIfFBFHVs9&_nc_ohc=HYWuRReuIuoAX-BWiag&_nc_ht=scontent.fhan2-3.fna&oh=00_AfAtUfeZtt5ocVqqdiIT5SxOXtWrKYCHFA6EHnpxm7yZ8w&oe=65FD6D0C",
   },
   {
     name: "Anthony S. Morin",

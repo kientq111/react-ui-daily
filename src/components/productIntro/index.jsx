@@ -21,18 +21,18 @@ const ProductIntro = () => {
                         The offer is valid until April 3 or as long as stock lasts!
                     </h5>
                 </div>
-                <button className="w-[442px] h-[59px] mt-8 rounded-lg p-4 text-white bg-blue-500 shadow-[0_7px_0_0_#1C57EE] ">Add to cart</button>
+                <button className="w-[442px] h-[59px] mt-8 rounded-lg p-4 text-white bg-blue-500 shadow-[0_7px_0_0_#1C57EE] hover:-translate-y-2 transition ">Add to cart</button>
                 <div className="mt-8 flex item-center">
                     <div className="w-[17px] h-[17px] rounded-full bg-[#00D98B]" />
                     <h4 className="text-sm font-medium ml-2">50+ pcs. in stock.</h4>
                 </div>
                 <div className="mt-8 flex justify-between">
 
-                    <button className="flex justify-center font-medium item-center gap-[10px] p-4 border-2 border-[#C9C9DA] rounded-lg text-lg h-[64px] w-[213px]">
+                    <button className="flex hover:-translate-y-2 transition justify-center font-medium item-center gap-[10px] p-4 border-2 border-[#C9C9DA] rounded-lg text-lg h-[64px] w-[213px]">
                         <img src={AddToCart} alt="React Logo" />
                         Add to cart
                     </button>
-                    <button className="flex justify-center font-medium item-center gap-[10px] p-4 border-2 border-[#C9C9DA] rounded-lg text-lg h-[64px] w-[213px]">
+                    <button className="flex hover:-translate-y-2 transition justify-center font-medium item-center gap-[10px] p-4 border-2 border-[#C9C9DA] rounded-lg text-lg h-[64px] w-[213px]">
                         <img src={Heart} alt="React Logo" />
                         Add to wishlist
                     </button>
